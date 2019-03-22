@@ -35,4 +35,5 @@ def printer(names)
 
   rooms_assigned.each do |room|
     print_list << room
+  end
 end
