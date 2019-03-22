@@ -27,13 +27,12 @@ def printer(names)
   badges = batch_badge_creator(names)
   rooms_assigned = assign_rooms(names)
 
-  print_list = []
 
   badges.each do |badge|
-    print_list << badge
+    puts badge
   end
 
   rooms_assigned.each do |room|
-    print_list << room
+    puts room
   end
 end
